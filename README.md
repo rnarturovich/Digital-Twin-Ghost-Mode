@@ -245,6 +245,7 @@ AI Automation · SaaS Development · SEO · Web Development
 
 <br />
 
-*If Digital Twin saves you time, drop a ⭐ — it helps others discover this tool.*
+*If your clone passed for the real you today — drop a ⭐.
+That's how the next founder finds this before they ship another "happy to help!" reply.*
 
 </div>
