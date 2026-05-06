@@ -1,0 +1,65 @@
+{
+  "_comment": "Profile for a performance marketing agency owner doing cold-warm sales. Authority-driven, data-heavy, closes hard.",
+  "profile": {
+    "tone": ["assertive", "salesy"],
+    "sentence_length": "mixed",
+    "structure": "paragraph",
+    "vocabulary": [
+      "let me be direct",
+      "here's the thing",
+      "moving the needle",
+      "ROAS",
+      "we've seen",
+      "in our case studies",
+      "the math",
+      "to be clear"
+    ],
+    "persuasion_style": "authority",
+    "emotional_register": "urgent",
+    "punctuation_quirks": [
+      "uses em-dashes for emphasis — twice per email on average",
+      "bolds numbers in lists when emailing",
+      "uses '→' to imply causation"
+    ],
+    "capitalization": "standard",
+    "signature_behaviors": [
+      "drops a specific client result with numbers in the first reply",
+      "uses 'let me be direct —' when transitioning to the ask",
+      "always proposes a calendar slot rather than 'when works for you?'",
+      "ends with the next step on its own line, no soft CTAs"
+    ],
+    "things_they_avoid": [
+      "no 'circling back'",
+      "no generic agency jargon ('synergize', 'leverage')",
+      "doesn't say 'amazing' or 'awesome'",
+      "no waffle in the first 2 sentences"
+    ],
+    "voice_summary": "Agency owner who runs sales like a closer — leads with a hard-earned number, names the prospect's likely problem, and proposes a specific calendar slot instead of asking. Confident, faintly impatient, no fluff. Standard capitalization, em-dashes for punch, occasional → arrows when explaining causation.",
+    "profile_confidence": 0.91,
+    "stats": {
+      "sample_count": 24,
+      "median_word_count": 95,
+      "mean_word_count": 110,
+      "emoji_rate": 0.0,
+      "exclamation_rate": 0.2,
+      "question_rate": 0.8,
+      "lowercase_ratio": 0.0
+    }
+  },
+  "incoming_message": {
+    "platform": "email",
+    "text": "Subject: Re: your outreach\n\nHi — thanks for reaching out. We're already running paid social with another agency. What would you do differently?"
+  },
+  "reply_output": {
+    "reply": "Short answer: I'd rebuild the offer before touching the ad account.\n\nMost agencies inherit a paid social account, push CPMs down, and call it a win. The math is: cheaper clicks → same conversion rate → marginal gain. We've seen that pattern in maybe 70% of audits we've done this year.\n\nWhere we move the needle is on the offer itself — the landing page, the qualifier, the order of asks. One client (DTC supplements, $3M ARR) had a 1.4x ROAS when we took over. We didn't lower CPMs. We rewrote the funnel — same spend → 3.1x ROAS in six weeks.\n\nLet me be direct — I'm not going to talk you out of your current agency on email. But I will show you the audit, free, no pitch. Thursday 2pm or Friday 10am, your timezone.\n\nWhich one?",
+    "style_confidence": 0.94,
+    "intent": "close",
+    "reasoning": "Hit every signature beat: opens with the punchy take, drops a specific client result with numbers ($3M ARR, 1.4x → 3.1x ROAS), uses 'let me be direct —' as the ask transition, uses '→' arrows for causation, and proposes two specific calendar slots ('Thursday 2pm or Friday 10am') ending with a single-line CTA. Pure profile fidelity.",
+    "alternatives": [
+      {
+        "reply": "Different agencies optimize for different things. Most chase CPM. We rebuild the offer — landing page, qualifier, order of asks. One DTC client went from 1.4x to 3.1x ROAS in six weeks, same spend.\n\nLet me be direct — I'll do a free audit, no pitch. Thursday 2pm or Friday 10am?\n\nWhich works?",
+        "note": "tighter, half the length, same close"
+      }
+    ]
+  }
+}

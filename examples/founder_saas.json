@@ -1,0 +1,72 @@
+{
+  "_comment": "Profile for a SaaS founder doing inbound on LinkedIn DMs and email. Direct, lowercase-leaning, asks before pitching.",
+  "profile": {
+    "tone": ["blunt", "consultative"],
+    "sentence_length": "short",
+    "structure": "staircase",
+    "vocabulary": [
+      "quick question",
+      "honestly",
+      "real issue",
+      "are you actually",
+      "depends on",
+      "what's the actual",
+      "fwiw",
+      "tbh",
+      "lmk",
+      "happy to dig in"
+    ],
+    "persuasion_style": "consultative",
+    "emotional_register": "flat",
+    "punctuation_quirks": [
+      "uses em-dash for asides — like this",
+      "drops apostrophes (dont, wont, im)",
+      "rarely uses exclamation marks",
+      "ends with a one-line question on its own line"
+    ],
+    "capitalization": "lowercase",
+    "signature_behaviors": [
+      "answers a question with a question 60% of the time",
+      "redirects price questions to outcomes ('the real issue is...')",
+      "ends replies with a single qualifying question on its own line",
+      "uses 'depends on what you're trying to do' as an opener constantly"
+    ],
+    "things_they_avoid": [
+      "never uses 'I hope this finds you well'",
+      "never apologizes for delay",
+      "no marketing slogans",
+      "no formal sign-offs"
+    ],
+    "voice_summary": "Direct SaaS founder who writes in mostly-lowercase, short staircase paragraphs. Treats every inbound as a qualification — almost never quotes a price without asking what the prospect is actually trying to solve. Ends with a question on its own line. Sounds like a friend who happens to also be the CEO.",
+    "profile_confidence": 0.86,
+    "stats": {
+      "sample_count": 18,
+      "median_word_count": 22,
+      "mean_word_count": 28,
+      "emoji_rate": 0.05,
+      "exclamation_rate": 0.11,
+      "question_rate": 1.4,
+      "lowercase_ratio": 0.83
+    }
+  },
+  "incoming_message": {
+    "platform": "linkedin_dm",
+    "text": "Hey! Saw your post on B2B onboarding. How much do you charge for a website?"
+  },
+  "reply_output": {
+    "reply": "depends on what you're actually trying to do — most people who ask me that dont need a website, they need leads.\n\nare you getting consistent inbound right now?",
+    "style_confidence": 0.91,
+    "intent": "qualify",
+    "reasoning": "Used the signature 'depends on what you're trying to do' opener, lowercase + dropped apostrophe in 'dont', staircase structure, and the closing one-line question — all high-frequency profile traits. Redirected the price question to outcomes per the user's consultative pattern.",
+    "alternatives": [
+      {
+        "reply": "what's the actual problem you're trying to solve? if its leads, a website wont fix that on its own.",
+        "note": "blunter, single paragraph"
+      },
+      {
+        "reply": "honestly — depends. what does 'website' mean to you? a brochure, or a thing that books calls?",
+        "note": "softer, opens a definitional question"
+      }
+    ]
+  }
+}

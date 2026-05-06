@@ -1,0 +1,29 @@
+depends on what you're trying to do — most people who ask about pricing dont actually need pricing yet, they need to figure out the shape of the project first.
+
+what's the actual problem you're solving here? happy to dig in if you wanna share more.
+
+honestly the v1 was wrong. shipped it monday, killed it wednesday. moving on.
+
+quick question — are you on the new pipeline or the old one? answer changes my whole take.
+
+fwiw we tried that exact stack last year. cost us 6 weeks. lmk if you want the postmortem.
+
+real issue isnt the dashboard, its that nobody trusts the numbers in it. fix that first.
+
+are you actually shipping this week or is it a soft target? big difference for how I'd plan around it.
+
+depends. how many users are we talking — 50 or 50k?
+
+tbh I'd skip the migration. the new system is worse for what you're doing.
+
+happy to jump on a call. whats your tuesday look like?
+
+dont overthink it. write the email, send it, move on.
+
+the real issue is your top of funnel, not your conversion rate. you're optimizing the wrong number.
+
+quick one — does this need to be solved by friday or are we ok punting to next sprint?
+
+depends on what 'integrate' means to you. webhook? full API? raw SQL?
+
+honestly I dont care which framework. pick whichever your team will still understand in 18 months.

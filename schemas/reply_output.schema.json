@@ -1,0 +1,50 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/digital-twin-skill/schemas/reply_output.schema.json",
+  "title": "ReplyOutput",
+  "description": "A drafted reply in the user's voice, with metadata for downstream automation.",
+  "type": "object",
+  "required": ["reply", "style_confidence", "intent", "reasoning"],
+  "properties": {
+    "reply": {
+      "type": "string",
+      "description": "The drafted message, ready to send.",
+      "minLength": 1
+    },
+    "style_confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Honest estimate that this reply would pass the clone test against the user's real writing."
+    },
+    "intent": {
+      "type": "string",
+      "enum": ["qualify", "close", "nurture", "info"]
+    },
+    "reasoning": {
+      "type": "string",
+      "description": "1-2 sentences explaining which profile traits drove this draft.",
+      "minLength": 20
+    },
+    "alternatives": {
+      "type": "array",
+      "description": "Optional alternative drafts (shorter, harder push, different angle).",
+      "items": {
+        "type": "object",
+        "required": ["reply", "note"],
+        "properties": {
+          "reply": { "type": "string", "minLength": 1 },
+          "note": { "type": "string", "minLength": 1 }
+        },
+        "additionalProperties": false
+      },
+      "maxItems": 3
+    },
+    "warnings": {
+      "type": "array",
+      "description": "Issues the model wants to flag (e.g., thin profile, off-topic, ethical concern).",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

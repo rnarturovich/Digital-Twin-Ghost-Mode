@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+pytest-cache-files-*/
+evals/
+.venv/
+venv/
+.DS_Store
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+*.log

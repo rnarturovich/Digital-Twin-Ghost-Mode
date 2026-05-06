@@ -1,0 +1,114 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://github.com/digital-twin-skill/schemas/style_profile.schema.json",
+  "title": "StyleProfile",
+  "description": "Structured fingerprint of a person's writing voice. Feeds into reply generation.",
+  "type": "object",
+  "required": [
+    "tone",
+    "sentence_length",
+    "structure",
+    "vocabulary",
+    "persuasion_style",
+    "emotional_register",
+    "punctuation_quirks",
+    "capitalization",
+    "signature_behaviors",
+    "things_they_avoid",
+    "voice_summary",
+    "profile_confidence",
+    "stats"
+  ],
+  "properties": {
+    "tone": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["formal", "casual", "assertive", "warm", "salesy", "dry", "playful", "consultative", "blunt", "friendly"]
+      },
+      "minItems": 1,
+      "maxItems": 3
+    },
+    "sentence_length": {
+      "type": "string",
+      "enum": ["short", "medium", "long", "mixed"]
+    },
+    "structure": {
+      "type": "string",
+      "enum": ["single_thought", "staircase", "paragraph", "bulleted"]
+    },
+    "vocabulary": {
+      "type": "array",
+      "description": "8-15 signature words/phrases that appear unusually often.",
+      "items": { "type": "string" },
+      "minItems": 5,
+      "maxItems": 20
+    },
+    "persuasion_style": {
+      "type": "string",
+      "enum": ["direct", "consultative", "storytelling", "socratic", "data-driven", "authority"]
+    },
+    "emotional_register": {
+      "type": "string",
+      "enum": ["flat", "warm", "enthusiastic", "sardonic", "urgent"]
+    },
+    "punctuation_quirks": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "capitalization": {
+      "type": "string",
+      "enum": ["standard", "lowercase", "mixed", "sentence_case_only"]
+    },
+    "signature_behaviors": {
+      "type": "array",
+      "description": "2-4 recognizable patterns. The single most important field for clone fidelity.",
+      "items": { "type": "string" },
+      "minItems": 2,
+      "maxItems": 6
+    },
+    "things_they_avoid": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "voice_summary": {
+      "type": "string",
+      "description": "2-3 sentences a stranger could imitate from.",
+      "minLength": 40
+    },
+    "profile_confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "gaps": {
+      "type": "array",
+      "description": "What's missing from the samples that would make the profile stronger.",
+      "items": { "type": "string" }
+    },
+    "stats": {
+      "type": "object",
+      "required": ["sample_count", "median_word_count", "emoji_rate"],
+      "properties": {
+        "sample_count": { "type": "integer", "minimum": 1 },
+        "median_word_count": { "type": "number", "minimum": 0 },
+        "mean_word_count": { "type": "number", "minimum": 0 },
+        "emoji_rate": {
+          "type": "number",
+          "description": "Average emojis per message.",
+          "minimum": 0
+        },
+        "exclamation_rate": { "type": "number", "minimum": 0 },
+        "question_rate": { "type": "number", "minimum": 0 },
+        "lowercase_ratio": {
+          "type": "number",
+          "description": "Fraction of messages that are entirely lowercase.",
+          "minimum": 0,
+          "maximum": 1
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

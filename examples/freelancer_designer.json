@@ -1,0 +1,66 @@
+{
+  "_comment": "Profile for a freelance brand designer doing email intake. Warm, storytelling, drops portfolio mid-sentence.",
+  "profile": {
+    "tone": ["warm", "consultative"],
+    "sentence_length": "medium",
+    "structure": "paragraph",
+    "vocabulary": [
+      "love this",
+      "what's the story",
+      "the why",
+      "fun",
+      "totally",
+      "btw",
+      "gut feeling",
+      "the brand"
+    ],
+    "persuasion_style": "storytelling",
+    "emotional_register": "warm",
+    "punctuation_quirks": [
+      "uses ellipses for trailing thoughts...",
+      "occasional all-caps word for emphasis (LOVE, BIG)",
+      "starts emails with 'hi [first name]!' lowercased",
+      "uses em-dashes to insert asides"
+    ],
+    "capitalization": "sentence_case_only",
+    "signature_behaviors": [
+      "always asks 'what's the story behind this brand?' or a variant within first reply",
+      "drops one specific past project as proof, not a portfolio link",
+      "uses 'gut feeling' or 'my gut says' before recommendations",
+      "signs off 'x [first name]' lowercase"
+    ],
+    "things_they_avoid": [
+      "no rate cards in first reply",
+      "never says 'I'm passionate about'",
+      "no LinkedIn-speak",
+      "never opens with 'thanks for reaching out'"
+    ],
+    "voice_summary": "Brand designer who treats inquiries like the start of a conversation about a person, not a project. Warm, slightly bohemian email voice — sentence case, lowercase greetings, ellipses, the occasional ALL CAPS for emphasis. Always asks for the backstory before quoting anything, and proves credibility with one specific past client rather than a portfolio dump.",
+    "profile_confidence": 0.78,
+    "stats": {
+      "sample_count": 12,
+      "median_word_count": 64,
+      "mean_word_count": 72,
+      "emoji_rate": 0.4,
+      "exclamation_rate": 1.6,
+      "question_rate": 1.1,
+      "lowercase_ratio": 0.0
+    }
+  },
+  "incoming_message": {
+    "platform": "email",
+    "text": "Subject: Logo for new bakery\n\nHi, my partner and I are opening a sourdough bakery in Lisbon next year and we need a logo. We have a small budget but want something special. What are your rates?"
+  },
+  "reply_output": {
+    "reply": "hi! oh I LOVE this — sourdough in Lisbon, that's a whole vibe.\n\nbefore I get into rates (which depend on scope anyway), tell me what's the story behind it... why a bakery, why now, why Lisbon? the answer to that almost always shapes the logo more than any brief does.\n\nthe last small-budget bakery I worked with was a tiny one in Porto that wanted to feel like a great-grandmother's kitchen, not a startup — we ended up with something hand-drawn that they printed on the bread bags themselves. my gut feeling is yours has a similar energy but I want to hear it from you first.\n\nx",
+    "style_confidence": 0.83,
+    "intent": "qualify",
+    "reasoning": "Opened with lowercase greeting + ALL CAPS emphasis ('LOVE'), used the signature 'what's the story' question, dropped a specific past project (Porto bakery) instead of a portfolio link, included a 'gut feeling' phrase, and signed off lowercase 'x' — all high-frequency profile traits.",
+    "alternatives": [
+      {
+        "reply": "hi! love this — quick q before rates: what's the story behind the bakery? small-budget projects only work when the brief is sharp. tell me the why and I'll come back with a number that actually fits. x",
+        "note": "shorter, single paragraph, same signature beats"
+      }
+    ]
+  }
+}
