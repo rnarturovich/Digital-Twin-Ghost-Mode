@@ -6,6 +6,8 @@
 [![Tests](https://img.shields.io/badge/tests-18%20passing-brightgreen)](tests/)
 [![Skill format](https://img.shields.io/badge/format-Anthropic%20Skill-blue)](SKILL.md)
 
+Created by **[Rafael Nikogosian](https://instagram.com/rn.arturovich)** · Founder of **[Wronce.com](https://wronce.com/)** · **[@rafael.founder](https://instagram.com/rn.arturovich)**
+
 Built for **founders, freelancers, and agency owners** who want to automate sales replies, DM intake, and inbox triage **without sounding like a chatbot**.
 
 This is not a chatbot. It's a **personality + behavior cloning system** wired into a skill format that any Claude-compatible agent can pick up.
@@ -222,3 +224,7 @@ If you're using this commercially with prospects, consider disclosing AI assista
 ## License
 
 MIT. Build whatever you want with it. Stars appreciated 🌟
+
+---
+
+Created by **[Rafael Nikogosian](https://instagram.com/rn.arturovich)** · Founder of **[Wronce.com](https://wronce.com/)** · **[@rafael.founder](https://instagram.com/rn.arturovich)**
