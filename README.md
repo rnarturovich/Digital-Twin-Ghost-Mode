@@ -6,7 +6,7 @@
 [![Tests](https://img.shields.io/badge/tests-18%20passing-brightgreen)](tests/)
 [![Skill format](https://img.shields.io/badge/format-Anthropic%20Skill-blue)](SKILL.md)
 
-Created by **[Rafael Nikogosian](https://instagram.com/rn.arturovich)** · Founder of **[Wronce.com](https://wronce.com/)** · **[@rafael.founder](https://instagram.com/rn.arturovich)**
+Created by **[Rafael Nikogosian](https://www.instagram.com/rafael.founder)** · Founder of **[Wronce.com](https://wronce.com/)** · **[@rafael.founder](https://www.instagram.com/rafael.founder)**
 
 Built for **founders, freelancers, and agency owners** who want to automate sales replies, DM intake, and inbox triage **without sounding like a chatbot**.
 
@@ -223,13 +223,13 @@ If you're using this commercially with prospects, consider disclosing AI assista
 
 ## License
 
-MIT © **[Rafael Nikogosian](https://instagram.com/rn.arturovich)** — build whatever you want with it.
+MIT © **[Rafael Nikogosian](https://www.instagram.com/rafael.founder)** — build whatever you want with it.
 
 ---
 
 <div align="center">
 
-### Built by [Rafael Nikogosian](https://instagram.com/rn.arturovich)
+### Built by [Rafael Nikogosian](https://www.instagram.com/rafael.founder)
 
 **Founder & Developer** · **[Wronce.com](https://wronce.com/)**
 
@@ -240,7 +240,7 @@ AI Automation · SaaS Development · SEO · Web Development
 
 [![Website](https://img.shields.io/badge/🌐_Website-Wronce.com-1f6feb?style=for-the-badge&labelColor=24292e)](https://wronce.com/)
 [![Wronce.com](https://img.shields.io/badge/WRONCE.COM-000000?style=for-the-badge&logoColor=white)](https://wronce.com/)
-[![Instagram](https://img.shields.io/badge/📷_Instagram-@rn.arturovich-E4405F?style=for-the-badge&labelColor=24292e)](https://instagram.com/rn.arturovich)
+[![Instagram](https://img.shields.io/badge/📷_Instagram-@rafael.founder-E4405F?style=for-the-badge&labelColor=24292e)](https://www.instagram.com/rafael.founder)
 [![GitHub](https://img.shields.io/badge/💻_GitHub-rnarturovich-181717?style=for-the-badge&labelColor=24292e)](https://github.com/rnarturovich)
 
 <br />
