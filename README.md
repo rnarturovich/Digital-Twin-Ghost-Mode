@@ -223,8 +223,28 @@ If you're using this commercially with prospects, consider disclosing AI assista
 
 ## License
 
-MIT. Build whatever you want with it. Stars appreciated 🌟
+MIT © **[Rafael Nikogosian](https://instagram.com/rn.arturovich)** — build whatever you want with it.
 
 ---
 
-Created by **[Rafael Nikogosian](https://instagram.com/rn.arturovich)** · Founder of **[Wronce.com](https://wronce.com/)** · **[@rafael.founder](https://instagram.com/rn.arturovich)**
+<div align="center">
+
+### Built by [Rafael Nikogosian](https://instagram.com/rn.arturovich)
+
+**Founder & Developer** · **[Wronce.com](https://wronce.com/)**
+
+Web Studio & Digital Agency · Los Angeles, CA
+AI Automation · SaaS Development · SEO · Web Development
+
+<br />
+
+[![Website](https://img.shields.io/badge/🌐_Website-Wronce.com-1f6feb?style=for-the-badge&labelColor=24292e)](https://wronce.com/)
+[![Wronce.com](https://img.shields.io/badge/WRONCE.COM-000000?style=for-the-badge&logoColor=white)](https://wronce.com/)
+[![Instagram](https://img.shields.io/badge/📷_Instagram-@rn.arturovich-E4405F?style=for-the-badge&labelColor=24292e)](https://instagram.com/rn.arturovich)
+[![GitHub](https://img.shields.io/badge/💻_GitHub-rnarturovich-181717?style=for-the-badge&labelColor=24292e)](https://github.com/rnarturovich)
+
+<br />
+
+*If Digital Twin saves you time, drop a ⭐ — it helps others discover this tool.*
+
+</div>
